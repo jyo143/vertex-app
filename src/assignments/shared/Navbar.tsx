@@ -1,4 +1,3 @@
-import React from "react";
 import { CiMenuKebab } from "react-icons/ci";
 import {
   FaThLarge,
@@ -10,7 +9,7 @@ import {
 import { useLocation } from "react-router-dom";
 const LogoIcon = () => (
   <img
-    src="/src/assets/NavbarAssets/vertx-logo.png"
+    src="/assets/NavbarAssets/vertx-logo.png"
     alt="logo"
     className="w-[50px] h-[50px] rounded-full bg-white"
   />
@@ -26,7 +25,7 @@ const Navbar = ({ children }: { children?: React.ReactNode }) => {
         <div className="flex justify-between items-center p-4 h-16">
           <img
             className="w-[36px] h-[36px] rounded-full"
-            src="/src/assets/NavbarAssets/profile-pic.jpg"
+            src="/assets/NavbarAssets/profile-pic.jpg"
             alt="profile-pic"
           />
           <LogoIcon />
@@ -60,12 +59,12 @@ const Navbar = ({ children }: { children?: React.ReactNode }) => {
           <div className="absolute top-4 left-4 flex flex-col space-y-4">
             <img
               className="w-[50px] h-[50px] rounded-full bg-white"
-              src="/src/assets/NavbarAssets/vertx-logo.png"
+              src="/assets/NavbarAssets/vertx-logo.png"
               alt="logo"
             />
             <img
               className="w-[45px] h-[45px] rounded-full"
-              src="/src/assets/NavbarAssets/profile-pic.jpg"
+              src="/assets/NavbarAssets/profile-pic.jpg"
               alt="profile-pic"
             />
           </div>
@@ -74,7 +73,7 @@ const Navbar = ({ children }: { children?: React.ReactNode }) => {
           <div className="absolute top-4 left-4 flex flex-col space-y-4">
             <img
               className="w-[50px] h-[50px] rounded-full bg-white"
-              src="/src/assets/NavbarAssets/vertx-logo.png"
+              src="/assets/NavbarAssets/vertx-logo.png"
               alt="logo"
             />
             {[1, 2, 3].map((_, i) => (
@@ -84,7 +83,7 @@ const Navbar = ({ children }: { children?: React.ReactNode }) => {
               >
                 <img
                   className="w-[45px] h-[45px] rounded-full object-cover"
-                  src="/src/assets/NavbarAssets/profile-pic.jpg"
+                  src="/assets/NavbarAssets/profile-pic.jpg"
                   alt={`profile-pic-${i}`}
                 />
                 <span
@@ -179,7 +178,7 @@ const Navbar = ({ children }: { children?: React.ReactNode }) => {
       <div className="hidden md:block">
         <img
           className="w-[24px] h-[24px] rounded-full"
-          src="/src/assets/NavbarAssets/plus-icon.svg"
+          src="/assets/NavbarAssets/plus-icon.svg"
           alt="plus-icon"
         />
       </div>

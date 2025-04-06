@@ -16,7 +16,7 @@ const VertxLogoPlaceholder = () => (
   <div className="w-10 h-10 flex items-center justify-center mr-3 text-white">
     <span className="font-bold text-xl">
       <img
-        src="/src/assets/NavbarAssets/vertx-logo.png"
+        src="/assets/NavbarAssets/vertx-logo.png"
         alt="logo"
         className="w-[50px] h-[50px] bg-white"
       />
@@ -43,7 +43,7 @@ const Overview = () => {
               Co-Founder & CEO @Vertx{" "}
               <span className="text-xs">
                 <img
-                  src="/src/assets/NavbarAssets/vertx-logo.png"
+                  src="/assets/NavbarAssets/vertx-logo.png"
                   alt="logo"
                   className="w-[20px] h-[20px] bg-white"
                 />
